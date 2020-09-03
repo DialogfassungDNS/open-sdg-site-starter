@@ -92,10 +92,10 @@ menu:
   # Use these to customise the main navigation.
   - path: /
     translation_key: general.goals
-  - path: /status_summary
-    translation_key: menu.status_summary
-  - path: /status
-    translation_key: menu.status
+  #- path: /status_summary
+    #translation_key: menu.status_summary
+  #- path: /status
+    #translation_key: menu.status
   - path: /about/
     translation_key: menu.about_this_site
   - path: /guidance
@@ -111,7 +111,7 @@ non_global_metadata: indicator.national_metadata
 # The list of languages that are translated. The first one is the default.
 languages:
     - de
-    - en
+    #- en
 
 # This makes sure that all pages have a language.
 defaults:
