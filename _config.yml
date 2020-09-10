@@ -102,8 +102,6 @@ menu:
     translation_key: menu.guidance
   - path: /agenda
     translation_key: menu.agenda
-  - path: https://www.bundesregierung.de/breg-de/themen/nachhaltigkeitspolitik/eine-strategie-begleitet-uns/dialog-zur-nachhaltigkeit
-    translation_key: menu.dialog_br
 
 
 # Configure the text (or "translation key") to be used on the
