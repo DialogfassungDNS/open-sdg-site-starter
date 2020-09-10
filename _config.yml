@@ -102,7 +102,7 @@ menu:
     translation_key: menu.guidance
   - path: /agenda
     translation_key: menu.agenda
-  - path: dialog-nachhaltigkeit.de
+  - path: https://www.bundesregierung.de/breg-de/themen/nachhaltigkeitspolitik/eine-strategie-begleitet-uns/dialog-zur-nachhaltigkeit
     translation_key: menu.dialog_br
 
 
