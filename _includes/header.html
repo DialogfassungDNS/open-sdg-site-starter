@@ -17,14 +17,14 @@
       <img src="{{ site.baseurl }}/assets/img/dns_logo.png" alt="{{ t.general.dns }} - {{ t.header.tag_line }}" />
     </a>
 
-  <div class='hidden visible-xs float-right'>
-    <ul id='accessibility-nav' class='contrast-switcher'></ul>
-    {%- if site.languages.size > 1 -%}
-    <div class="language-toggle-mobile">
-      {% include components/language-toggle.html %}
+    <div class='hidden visible-xs float-right'>
+      <ul id='accessibility-nav' class='contrast-switcher'></ul>
+      {%- if site.languages.size > 1 -%}
+      <div class="language-toggle-mobile">
+        {% include components/language-toggle.html %}
+      </div>
+      {%- endif -%}
     </div>
-    {%- endif -%}
-  </div>
 
     <nav class="navbar navbar-default" id="main-nav">
 
@@ -53,7 +53,7 @@
                 <a href="{{ site.baseurl }}{{ baseurl_folder }}{{ item.path }}">{{ item.translation_key | t }}</a>
               </li>
             {% elsif item.path contains "dialog" %}
-              <li class="nav-link {% if current_path_no_slash == item_path_no_slash %}active{% endif %} hidden-sm hidden-md hidden-lg">
+              <li class="nav-link {% if current_path_no_slash == item_path_no_slash %}active{% endif %}">
                 <a href="{{ item.path }}">{{ item.translation_key | t }}</a>
               </li>
             {% else %}
@@ -64,12 +64,11 @@
           {%- endfor -%}
         {%- endif -%}
 
+        <!--DIALOG
         <li class="nav-link visible-sm visible-md visible-lg">
           <a class="status-toggle-button" onclick="$(this).next('.status-toggle').toggle(); return false;" style="margin-right: 0px;">
-            <!--<i class="fa fa-globe"></i>-->
-            <!--DIALOG<span class="status-toggle-text">{{ t.menu.status_title }}</span>
-            <i class="status-toggle fa fa-chevron-down"></i>DIALOG-->
-            <!--<i class="status-toggle fa fa-chevron-up" style="display:none;"></i>-->
+            <span class="status-toggle-text">{{ t.menu.status_title }}</span>
+            <i class="status-toggle fa fa-chevron-down"></i>
           </a>
           <ul class="status-options status-toggle">
             {%- if site.menu -%}
@@ -85,13 +84,12 @@
             {%- endif -%}
           </ul>
         </li>
-
+        DIALOG-->
+        
         <li class="nav-link visible-sm visible-md visible-lg">
           <a class="status-toggle-button" onclick="$(this).next('.status-toggle').toggle(); return false;" style="margin-right: 0px;">
-            <!--<i class="fa fa-globe"></i>-->
             <span class="status-toggle-text">{{ t.menu.about }}</span>
             <i class="status-toggle fa fa-chevron-down"></i>
-            <!--<i class="status-toggle fa fa-chevron-up" style="display:none;"></i>-->
           </a>
           <ul class="status-options status-toggle">
             {%- if site.menu -%}
@@ -109,9 +107,9 @@
         </li>
 
         {%- if site.languages.size > 1 -%}
-        <li>
-          {% include components/language-toggle.html %}
-        </li>
+          <li>
+            {% include components/language-toggle.html %}
+          </li>
         {%- endif -%}
         <!---#17 addLinkToOtherPage---start------------>
         <li class="nav-link">
