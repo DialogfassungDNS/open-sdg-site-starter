@@ -32,7 +32,7 @@
   
   {% assign country_name = site.country.name | t %}
   {% assign heading_default = t.frontpage.heading_dialogue | replace: '%name', country_name %}
-  <h1 style="margin-top:70px;">{{ site.frontpage_heading | default: heading_default | t }}</h1>
+  <h1 style="margin-top:70px; margin-left: 16px;">{{ site.frontpage_heading | default: heading_default | t }}</h1>
 
   <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
