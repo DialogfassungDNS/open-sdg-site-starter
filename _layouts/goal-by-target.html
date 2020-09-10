@@ -25,14 +25,16 @@
 </div>
 
 <div id="main-content" class="container goal-indicators goal-{{page.sdg_goal}} goal-by-target">
-
-  {{ content }}
-  {% include components/breadcrumb.html %}
-  {% include components/navigation.html %}
   
   {% assign country_name = site.country.name | t %}
   {% assign heading_default = t.frontpage.heading_dialogue | replace: '%name', country_name %}
   <h1 style="margin-top:70px; margin-left: 16px;">{{ site.frontpage_heading | default: heading_default | t }}</h1>
+  
+  {{ content }}
+  {% include components/breadcrumb.html %}
+  {% include components/navigation.html %}
+  
+  
 
   <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
