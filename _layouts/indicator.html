@@ -22,9 +22,9 @@
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
 
-        <h2 class="titles goal-{{goal_number}}" title="{{ t.general.section }}: {{ meta.section }}">
+        <h1 class="titles goal-{{goal_number}}" title="{{ t.general.section }}: {{ meta.section }}">
           {{ meta.section }} - <i title="{{ t.general.postulate}}: {{ meta.postulate }}">{{ meta.postulate }}</i>
-        </h2>
+        </h1>
 
         <h2 class="titles goal-{{goal_number}}">{{ t.general.indicator }} {{ meta.indicator_display }}: {{ meta.indicator | get_indicator_name }}</h2>
       </div>
@@ -36,9 +36,9 @@
 
 <div id="main-content" class="container goal-{{ goal_number }}">
   
-  <h1 style="margin-bottom: 25px;">
+  <h2 style="margin-bottom: 25px;">
     Indikatoren zur <a href="https://www.bundesregierung.de/breg-de/themen/nachhaltigkeitspolitik/eine-strategie-begleitet-uns/dialog-zur-nachhaltigkeit" style="color: black">  <u>Dialogfassung</u></a> der Deutschen Nachhaltigkeitsstrategie<br><small>Weiterentwicklung 2021</small>
-  </h1>
+  </h2>
   
   {% include components/breadcrumb.html %}
   {% include components/navigation.html %}
