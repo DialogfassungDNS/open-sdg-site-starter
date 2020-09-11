@@ -28,13 +28,19 @@
     </div>
   <!---2 Btns if there is no corresponding Indicator-->
   {% else  %}
-    <div class="col-xs-6 col-md-6 col-lg-6">
+    <div class="col-xs-3 col-md-3 col-lg-4">
       <a href="{{ site.baseurl }}{{ baseurl_folder }}/{{ meta.previous }}" class="btn btn-primary btn-block G{{ meta.sdg_goal }}-background" role="button">
         <i class="fa fa-chevron-left" aria-hidden="true"></i> <b><span class="btn-label hidden-sm hidden-xs">{{ t.general.prev_indicator }}</span></b>
       </a>
     </div>
 
-    <div class="col-xs-6 col-md-6 col-lg-6">
+    <div class="col-xs-6 col-md-6 col-lg-4">
+      <a href="https://sustainabledevelopment-deutschland.github.io" class="btn" title="Hier gelangen Sie zur Hauptseite der aktuell gültigen Fassung des Indikatorenberichts" role="button">
+        <b>Neuer Indikator!<span class="btn-label hidden-sm hidden-xs"> - Keine Entsprechung in aktueller Fassung</span></b>
+      </a>
+    </div>
+
+    <div class="col-xs-3 col-md-3 col-lg-4">
       <a href="{{ site.baseurl }}{{ baseurl_folder }}/{{ meta.next }}" class="btn btn-primary btn-block G{{ meta.sdg_goal }}-background" role="button">
         <b><span class="btn-label hidden-sm hidden-xs">{{ t.general.next_indicator }}</span></b> <i class="fa fa-chevron-right" aria-hidden="true"></i>
       </a>
