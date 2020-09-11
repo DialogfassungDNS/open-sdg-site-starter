@@ -368,6 +368,16 @@ header {
   border-color: transparent;
   margin-bottom: 5px; }
 
+.G18-background {
+  background-color: #dddddd;
+  border-color: transparent;
+  margin-bottom: 5px; }
+
+.G18-background:hover {
+  background-color: #aeadaf;
+  border-color: transparent;
+  margin-bottom: 5px; }
+
 #disclaimer {
   background: #BF0C16; }
   #disclaimer .phase-tag {
