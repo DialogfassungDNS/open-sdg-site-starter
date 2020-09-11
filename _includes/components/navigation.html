@@ -5,6 +5,9 @@
   {% assign language = current_language %}
 {% endif %}
 
+
+{% assign label = meta.sdg-indicator | replace: "/", "" | replace: "-", "." | replace: "ab", "a,b" | replace: "cd", "c,d" | replace: "2.2.a", "2.2" | replace: "6.2.a", "6.2" | replace: "8.1.a", "8.1" | replace: "8.3.a", "8.3" |replace: "8.4.a", "8.4" | replace: "8.6.a", "8.6" | replace: "9.1.a", "9.1" | replace: "10.1.a", "10.1" | replace: "10.2.a", "10.2" | replace: "11.3.a", "11.3" | replace: "11.4.a", "11.4"  | replace: "12.2.a", "12.2" %}
+
 <!---Indicator page-->
 {% if goal_uri %}
   <!---3 Btns if there is a corresponding Indicator-->
