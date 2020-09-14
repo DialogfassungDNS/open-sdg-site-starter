@@ -109,7 +109,7 @@ Liegt aus Ihrer Sicht ein Verstoß gegen die datenschutzrechtlichen Bestimmungen
 
 ## Kontaktdaten des Verantwortlichen
 
-Statistisches Bundesamt - Gustav-Stresemann-Ring 11 - 65189 Wiesbaden - vertreten durch den [Präsidenten](https://www.destatis.de/DE/Ueber-uns/Leitung-Organisation/_inhalt.html#sprg240100).
+Statistisches Bundesamt,<br>Gustav-Stresemann-Ring 11,<br>65189 Wiesbaden,<br> vertreten durch den [Präsidenten](https://www.destatis.de/DE/Ueber-uns/Leitung-Organisation/_inhalt.html#sprg240100).
 
 ## Kontaktdaten des/der behördlichen Datenschutzbeauftragten
 
@@ -128,7 +128,7 @@ Kommunikation via E-Mail kann Sicherheitslücken aufweisen. Beispielsweise könn
 
 Für die Standard-Veröffentlichungen des Statistischen Bundesamtes in gedruckter und elektronischer Form sowie für die Inhalte auf dieser Website einschließlich Grafiken sowie der zum Download bereitgestellten Produkte gilt, soweit bei dem jeweiligen Produkt/Internetseite keine ergänzenden oder anderslautenden Angaben ausgewiesen sind:
 
-© Statistisches Bundesamt (Destatis), 2020
+© Statistisches Bundesamt (Destatis), 2020 <br>
 Vervielfältigung und Verbreitung, auch auszugsweise, mit Quellennachweis gestattet.
 
 Diese Regelung gilt für jede Art der Weiterverbreitung von Texten, Daten und Grafiken durch Dritte, soweit das Statistische Bundesamt Inhaber des Urheberrechts ist und die alleinigen Herausgeberrechte besitzt. Die Weiterverwendung ist sowohl für nicht gewerbliche als auch gewerbliche Zwecke erlaubt. Auch die Verbreitungsform elektronisch, via Internet oder als Print ist nicht eingeschränkt. Es bedarf keiner ausdrücklichen Genehmigung durch unser Haus. Eine Quellenangabe ist jedoch erforderlich. Das Statistische Bundesamt (Destatis) ist als Herausgeber in den Quellennachweis aufzunehmen.
@@ -140,4 +140,4 @@ Ausgenommen vom zeitlich und räumlich uneingeschränkten Nutzungsumfang sind Nu
 Bei Verwendung unserer Daten empfiehlt es sich daher, auf die Ausbringung der Copyright-Angaben im jeweiligen Produkt zu achten und im Bedarfsfalle die im Impressum genannten Copyright-Inhaber zu kontakten.
 
 Copyright Icons:
-© United Nations/[www.globalgoals.org](http://www.globalgoals.org/asset-licence/),[Guidelines for the use (Logos und Pictogramme)](https://www.un.org/sustainabledevelopment/wp-content/uploads/2019/01/SDG_Guidelines_AUG_2019_Final.pdf) / Bundespresseamt, [CC BY-SA 3.0 (deutsche Übersetzung)](https://creativecommons.org/licenses/by-sa/3.0/)
+© United Nations/[www.globalgoals.org](http://www.globalgoals.org/asset-licence/), [Guidelines for the use (Logos und Pictogramme)](https://www.un.org/sustainabledevelopment/wp-content/uploads/2019/01/SDG_Guidelines_AUG_2019_Final.pdf) / [© Bundespresseamt, CC BY-SA 3.0 (deutsche Übersetzung)](https://creativecommons.org/licenses/by-sa/3.0/)
