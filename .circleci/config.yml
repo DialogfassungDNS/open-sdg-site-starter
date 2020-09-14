@@ -46,7 +46,8 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             #- "a0:7f:46:1c:2a:29:34:3d:65:3f:e7:1b:51:9d:67:32"
-            - '96:a6:5b:9b:a0:65:95:29:5b:b0:08:a9:59:a8:71:00'
+            #- '96:a6:5b:9b:a0:65:95:29:5b:b0:08:a9:59:a8:71:00'
+            - '9c:7f:f6:ab:8f:b6:0c:23:29:76:36:01:1c:7b:bd:20'
       - run:
           name: Deploy to Github
           command: bash scripts/deploy/circleci/deploy_prod.sh
