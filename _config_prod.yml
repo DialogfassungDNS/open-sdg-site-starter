@@ -14,23 +14,23 @@
 baseurl: ""
 environment: production
 # Replace my-github-org and open-sdg-data-starter as needed.
-remotedatabaseurl: "https://sustainabledevelopment-deutschland.github.io/sdg-data-pub"
+remotedatabaseurl: "https://dns-dialogfassung.github.io/dialog-data"
 #remotedatabaseurl: "http://dns-indikatoren.de/sdg-data-pub"
 #remotedatabaseurl: "https://nachhaltige-entwicklung-deutschland.github.io/open-sdg-data-starter"
 
 jekyll_get_json:
   - data: meta
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://sustainabledevelopment-deutschland.github.io/sdg-data-pub/meta/all.json'
+    json: 'https://dns-dialogfassung.github.io/dialog-data/meta/all.json'
   - data: headlines
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://sustainabledevelopment-deutschland.github.io/sdg-data-pub/headline/all.json'
+    json: 'https://dns-dialogfassung.github.io/dialog-data/headline/all.json'
   - data: schema
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://sustainabledevelopment-deutschland.github.io/sdg-data-pub/meta/schema.json'
+    json: 'https://dns-dialogfassung.github.io/dialog-data/meta/schema.json'
   - data: reporting
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://sustainabledevelopment-deutschland.github.io/sdg-data-pub/stats/reporting.json'
+    json: 'https://dns-dialogfassung.github.io/dialog-data/stats/reporting.json'
   - data: translations
     json: 'https://JustusCas.github.io/sdg-translations/translations.json'
 
