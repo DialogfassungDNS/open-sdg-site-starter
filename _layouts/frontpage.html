@@ -4,9 +4,10 @@
 
 <div id="main-content" class="container goal-tiles" role="main">
 
-    {% assign country_name = site.country.name | t %}
-    {% assign heading_default = t.frontpage.heading_dns | replace: '%name', country_name %}
-    <h1>{{ site.frontpage_heading | default: heading_default | t }}</h1>
+    <h2>
+        Indikatoren zur <a href="https://www.bundesregierung.de/breg-de/themen/nachhaltigkeitspolitik/eine-strategie-begleitet-uns/dialog-zur-nachhaltigkeit" style="color: black">  <u>Dialogfassung</u></a> der Deutschen Nachhaltigkeitsstrategie<br><small>Weiterentwicklung 2021</small>
+    </h2>
+    
 
     {% assign instructions_default = t.frontpage.instructions_dns | replace_first: '%before_link', '<span id="jump-to-search"><a>' | replace_first: '%after_link', '</a></span>' | replace_first: '%name', country_name %}
     <p>{{ site.frontpage_instructions | default: instructions_default | t }}</p>
@@ -36,5 +37,9 @@
         </div>
     {% endif %}
     </div>
+    <h1>
+        <a href="https://sustainabledevelopment-deutschland.github.io//">
+            <small>Zu den Indikatoren der aktuell gültigen Fassung der Deutschen Nachhaltigkeitsstrategie</small>
+    </h1>
 </div>
 {% include footer.html %}

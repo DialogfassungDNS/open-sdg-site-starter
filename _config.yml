@@ -9,6 +9,7 @@
 # -- replace "open-sdg-site-starter" with "my-awesome-site-repo"
 # -- replace "open-sdg-data-starter" with "my-awesome-data-repo"
 
+
 # Replace this title as needed.
 title: Indikatoren der deutschen Nachhaltigkeitsstrategie
 # Replace the baseurl with the name of this repository.
@@ -17,21 +18,21 @@ url: ""
 data_dir: data
 environment: staging
 # Replace my-github-org and open-sdg-data-starter as needed.
-remotedatabaseurl: "https://nachhaltige-entwicklung-deutschland.github.io/open-sdg-data-starter"
+remotedatabaseurl: "https://dialogfassungdns.github.io/open-sdg-data-starter"
 
 jekyll_get_json:
   - data: meta
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://nachhaltige-entwicklung-deutschland.github.io/open-sdg-data-starter/meta/all.json'
+    json: 'https://dialogfassungdns.github.io/open-sdg-data-starter/meta/all.json'
   - data: headlines
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://nachhaltige-entwicklung-deutschland.github.io/open-sdg-data-starter/headline/all.json'
+    json: 'https://dialogfassungdns.github.io/open-sdg-data-starter/headline/all.json'
   - data: schema
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://nachhaltige-entwicklung-deutschland.github.io/open-sdg-data-starter/meta/schema.json'
+    json: 'https://dialogfassungdns.github.io/open-sdg-data-starter/meta/schema.json'
   - data: reporting
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://nachhaltige-entwicklung-deutschland.github.io/open-sdg-data-starter/stats/reporting.json'
+    json: 'https://dialogfassungdns.github.io/open-sdg-data-starter/stats/reporting.json'
   - data: translations
     #json: 'https://open-sdg.github.io/sdg-translations/translations-0.5.2.json'
     json: 'https://JustusCas.github.io/sdg-translations/translations.json'
@@ -92,10 +93,10 @@ menu:
   # Use these to customise the main navigation.
   - path: /
     translation_key: general.goals
-  - path: /status_summary
-    translation_key: menu.status_summary
-  - path: /status
-    translation_key: menu.status
+  #- path: /status_summary
+    #translation_key: menu.status_summary
+  #- path: /status
+    #translation_key: menu.status
   - path: /about/
     translation_key: menu.about_this_site
   - path: /guidance
@@ -111,7 +112,7 @@ non_global_metadata: indicator.national_metadata
 # The list of languages that are translated. The first one is the default.
 languages:
     - de
-    - en
+    #- en
 
 # This makes sure that all pages have a language.
 defaults:

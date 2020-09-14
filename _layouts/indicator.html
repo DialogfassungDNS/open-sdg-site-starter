@@ -35,6 +35,11 @@
 </div>
 
 <div id="main-content" class="container goal-{{ goal_number }}">
+  
+  <h2 style="margin-bottom: 25px;">
+    Indikatoren zur <a href="https://www.bundesregierung.de/breg-de/themen/nachhaltigkeitspolitik/eine-strategie-begleitet-uns/dialog-zur-nachhaltigkeit" style="color: black">  <u>Dialogfassung</u></a> der Deutschen Nachhaltigkeitsstrategie<br><small>Weiterentwicklung 2021</small>
+  </h2>
+  
   {% include components/breadcrumb.html %}
   {% include components/navigation.html %}
 
@@ -192,11 +197,11 @@
             <a class="nav-link" data-toggle="tab" href="#content" aria-controls="content" role="tab" {% include autotrack.html preset="tab_meta_content" category="Tab change" action="Change metadata view" label="Change to Content tab" %}>{{ t.indicator.contentAndProgress }}</a>
           </li>
           <!---#5 addContentAndProgress---stop-------------------------------------------------------------------------------------------------------------------------------------->
-
+          <!--
           <li role="presentation" class="nav-item">
             <a class="nav-link" data-toggle="tab" href="#globalmetadata" aria-controls="globalmetadata" role="tab" {% include autotrack.html preset="tab_meta_global" category="Tab change" action="Change metadata view" label="Change to Global Metadata tab" %}>{{ t.indicator.history }}</a>
           </li>
-
+          -->
           <li role="presentation" class="nav-item">
             <a class="nav-link" data-toggle="tab" href="#sources" aria-controls="sources" role="tab" {% include autotrack.html preset="tab_meta_sources" category="Tab change" action="Change metadata view" label="Change to Sources tab" %}>{{ t.indicator.sources }}</a>
           </li>
@@ -254,16 +259,16 @@
           </div>
           <!---#5 addContentAndProgress---stop-------------------------------------------------------------------------------------------------------------------------------------->
 
+           
           <div role="tabpanel" class="tab-pane" id="globalmetadata">
-            <!-- Global Metadata -->
-            <div> <!-- formerly <div class="collapsible expanded"> -->
-              <!-- <h3 tabindex='0'>Global Metadata</h3> -->
+            <div> 
               <article>
                 <p>{{ t.indicator.history_blurb }}</p>
                 {% include components/history.html %}
               </article>
             </div>
           </div>
+          
 
           <div role="tabpanel" class="tab-pane" id="sources">
             {% include components/sources.html %}
