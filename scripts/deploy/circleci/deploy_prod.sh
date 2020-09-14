@@ -6,11 +6,11 @@
 # This is the Github organisation or username of your fork. For example, if
 # your fork is located at https://github.com/xyz/open-sdg-site-starter, then
 # you should put "xyz" here. Changing this is required.
-GH_ORG_PROD="sustainabledevelopment-deutschland"
+GH_ORG_PROD="dns-dialogfassung"
 # These variables only control the name/email on the automated Git commits.
 # Changing this is optional.
-GH_NAME="sustainabledevelopment-deutschland"
-GH_EMAIL="DNS-Indikatoren@destatis.de"
+GH_NAME="MoBosse"
+GH_EMAIL="moritz.bosse@destatis.de"
 ###################################
 
 # There is probably no need to modify anything below this point.
@@ -20,7 +20,7 @@ git config --global user.name "$GH_NAME"
 # CircleCI will identify the SSH key with a "Host" of gh-prod. In order to tell
 # Git to use this key, we need to hack the SSH key:
 sed -i -e 's/Host gh-prod/Host gh-prod\n  HostName github.com/g' ~/.ssh/config
-git clone git@gh-prod:$GH_ORG_PROD/sustainabledevelopment-deutschland.github.io.git out
+git clone git@gh-prod:$GH_ORG_PROD/dns-dialogfassung.github.io.git out
 
 cd out
 #git checkout gh-pages || git checkout --orphan gh-pages
