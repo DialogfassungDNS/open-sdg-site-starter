@@ -1034,7 +1034,7 @@ var indicatorDataStore = function(dataUrl) {
     that.footerFields = _.pick(that.footerFields, _.identity);
   }());
 
-  var headlineColor = '777777';
+  //var headlineColor = '777777';
 
   //---
 
@@ -1077,9 +1077,11 @@ var indicatorDataStore = function(dataUrl) {
     this.numberOfColors = null;
     this.customColors = null;
     var colors = opensdg.chartColors(this.shortIndicatorId, this.colorSet, this.numberOfColors, this.customColors);
+    var headlineColor = colors[0];
   }
   else{
     var colors = ['7e984f', '8d73ca', 'aaa533', 'c65b8a', '4aac8d', 'c95f44'];
+    var headlineColor = '777777';
   }
 
    var headlinePointstyle = 'circle';
