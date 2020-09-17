@@ -23,18 +23,18 @@
           "href": "/open-sdg-site-starter/2-1-b",
           "status": "complete"
         },{
-          "id": "2-2-a",
-          "title": "Unterstützung guter Regierungs&shy;führung bei der Erreichung einer angemessenen Ernährung weltweit",
-          "description": "",
-          "keywords": "2-2-a,2.2.a,2.2",
-          "href": "/open-sdg-site-starter/2-2-a",
-          "status": "complete"
-        },{
           "id": "2-1-a",
           "title": "Stick&shy;stoff&shy;über&shy;schuss der Landwirtschaft",
           "description": "",
           "keywords": "2-1-a,2.1.a,2.1.a",
           "href": "/open-sdg-site-starter/2-1-a",
+          "status": "complete"
+        },{
+          "id": "2-2-a",
+          "title": "Unterstützung guter Regierungs&shy;führung bei der Erreichung einer angemessenen Ernährung weltweit",
+          "description": "",
+          "keywords": "2-2-a,2.2.a,2.2",
+          "href": "/open-sdg-site-starter/2-2-a",
           "status": "complete"
         }]
     }
@@ -43,11 +43,18 @@
       "id": "3",
       "title": "Ein gesundes Leben für alle Menschen jeden Alters gewährleisten und ihr Wohlergehen fördern",
       "indicators": [{
-          "id": "3-1-ab",
-          "title": "Vorzeitige Sterblichkeit",
+          "id": "3-1-e",
+          "title": "Adipositasquote von Kindern und Jugendlichen",
           "description": "",
-          "keywords": "3-1-ab,3.1.ab,3.1.a, b",
-          "href": "/open-sdg-site-starter/3-1-ab",
+          "keywords": "3-1-e,3.1.e,3.1.e",
+          "href": "/open-sdg-site-starter/3-1-e",
+          "status": "complete"
+        },{
+          "id": "3-1-cd",
+          "title": "Raucherquote von Jugendlichen und Erwachsenen",
+          "description": "",
+          "keywords": "3-1-cd,3.1.cd,3.1.c, d",
+          "href": "/open-sdg-site-starter/3-1-cd",
           "status": "complete"
         },{
           "id": "3-2-a",
@@ -57,11 +64,11 @@
           "href": "/open-sdg-site-starter/3-2-a",
           "status": "complete"
         },{
-          "id": "3-1-cd",
-          "title": "Raucherquote von Jugendlichen und Erwachsenen",
+          "id": "3-1-ab",
+          "title": "Vorzeitige Sterblichkeit",
           "description": "",
-          "keywords": "3-1-cd,3.1.cd,3.1.c, d",
-          "href": "/open-sdg-site-starter/3-1-cd",
+          "keywords": "3-1-ab,3.1.ab,3.1.a, b",
+          "href": "/open-sdg-site-starter/3-1-ab",
           "status": "complete"
         },{
           "id": "3-1-f",
@@ -76,13 +83,6 @@
           "description": "",
           "keywords": "3-2-b,3.2.b,3.2.b",
           "href": "/open-sdg-site-starter/3-2-b",
-          "status": "complete"
-        },{
-          "id": "3-1-e",
-          "title": "Adipositasquote von Kindern und Jugendlichen",
-          "description": "",
-          "keywords": "3-1-e,3.1.e,3.1.e",
-          "href": "/open-sdg-site-starter/3-1-e",
           "status": "complete"
         }]
     }
@@ -118,6 +118,13 @@
       "id": "5",
       "title": "Geschlechtergleichstellung erreichen und alle Frauen und Mädchen zur Selbstbestimmung befähigen",
       "indicators": [{
+          "id": "5-1-a",
+          "title": "Ver&shy;dienst&shy;ab&shy;stand zwischen Frauen und Männern",
+          "description": "",
+          "keywords": "5-1-a,5.1.a,5.1.a",
+          "href": "/open-sdg-site-starter/5-1-a",
+          "status": "complete"
+        },{
           "id": "5-1-bc",
           "title": "Frauen in Führungs&shy;po&shy;si&shy;tio&shy;nen in der Wirtschaft sowie im öffentlichen Dienst des Bundes",
           "description": "",
@@ -138,13 +145,6 @@
           "keywords": "5-1-d,5.1.d,5.1.d",
           "href": "/open-sdg-site-starter/5-1-d",
           "status": "complete"
-        },{
-          "id": "5-1-a",
-          "title": "Ver&shy;dienst&shy;ab&shy;stand zwischen Frauen und Männern",
-          "description": "",
-          "keywords": "5-1-a,5.1.a,5.1.a",
-          "href": "/open-sdg-site-starter/5-1-a",
-          "status": "complete"
         }]
     }
   },{
@@ -152,11 +152,11 @@
       "id": "6",
       "title": "Verfügbarkeit und nachhaltige Bewirtschaftung von Wasser und Sanitärversorgung für alle gewährleisten",
       "indicators": [{
-          "id": "6-2-a",
-          "title": "Entwicklungs&shy;zusammen&shy;arbeit für Trinkwasser- und Sanitär&shy;versorgung",
+          "id": "6-1-a",
+          "title": "Phosphor in Fließgewässern",
           "description": "",
-          "keywords": "6-2-a,6.2.a,6.2",
-          "href": "/open-sdg-site-starter/6-2-a",
+          "keywords": "6-1-a,6.1.a,6.1.a",
+          "href": "/open-sdg-site-starter/6-1-a",
           "status": "complete"
         },{
           "id": "6-1-b",
@@ -166,11 +166,11 @@
           "href": "/open-sdg-site-starter/6-1-b",
           "status": "complete"
         },{
-          "id": "6-1-a",
-          "title": "Phosphor in Fließgewässern",
+          "id": "6-2-a",
+          "title": "Entwicklungs&shy;zusammen&shy;arbeit für Trinkwasser- und Sanitär&shy;versorgung",
           "description": "",
-          "keywords": "6-1-a,6.1.a,6.1.a",
-          "href": "/open-sdg-site-starter/6-1-a",
+          "keywords": "6-2-a,6.2.a,6.2",
+          "href": "/open-sdg-site-starter/6-2-a",
           "status": "complete"
         }]
     }
@@ -206,11 +206,18 @@
       "id": "8",
       "title": "Dauerhaftes, inklusives und nachhaltiges Wirtschaftswachstum, produktive Vollbeschäftigung und menschenwürdige Arbeit für alle fördern",
       "indicators": [{
-          "id": "8-6-a",
-          "title": "Anzahl der Mitglieder des Textil&shy;bünd&shy;nisses",
+          "id": "8-1-a",
+          "title": "Gesamt&shy;roh&shy;stoff&shy;pro&shy;duk&shy;tivi&shy;tät",
           "description": "",
-          "keywords": "8-6-a,8.6.a,8.6",
-          "href": "/open-sdg-site-starter/8-6-a",
+          "keywords": "8-1-a,8.1.a,8.1",
+          "href": "/open-sdg-site-starter/8-1-a",
+          "status": "complete"
+        },{
+          "id": "8-2-c",
+          "title": "Schuldenstand",
+          "description": "",
+          "keywords": "8-2-c,8.2.c,8.2.c",
+          "href": "/open-sdg-site-starter/8-2-c",
           "status": "complete"
         },{
           "id": "8-4-a",
@@ -220,11 +227,11 @@
           "href": "/open-sdg-site-starter/8-4-a",
           "status": "complete"
         },{
-          "id": "8-2-c",
-          "title": "Schuldenstand",
+          "id": "8-3-a",
+          "title": "Verhältnis der Brutto&shy;anlage&shy;in&shy;ves&shy;titio&shy;nen zum BIP",
           "description": "",
-          "keywords": "8-2-c,8.2.c,8.2.c",
-          "href": "/open-sdg-site-starter/8-2-c",
+          "keywords": "8-3-a,8.3.a,8.3",
+          "href": "/open-sdg-site-starter/8-3-a",
           "status": "complete"
         },{
           "id": "8-2-ab",
@@ -241,18 +248,11 @@
           "href": "/open-sdg-site-starter/8-5-ab",
           "status": "complete"
         },{
-          "id": "8-1-a",
-          "title": "Gesamt&shy;roh&shy;stoff&shy;pro&shy;duk&shy;tivi&shy;tät",
+          "id": "8-6-a",
+          "title": "Anzahl der Mitglieder des Textil&shy;bünd&shy;nisses",
           "description": "",
-          "keywords": "8-1-a,8.1.a,8.1",
-          "href": "/open-sdg-site-starter/8-1-a",
-          "status": "complete"
-        },{
-          "id": "8-3-a",
-          "title": "Verhältnis der Brutto&shy;anlage&shy;in&shy;ves&shy;titio&shy;nen zum BIP",
-          "description": "",
-          "keywords": "8-3-a,8.3.a,8.3",
-          "href": "/open-sdg-site-starter/8-3-a",
+          "keywords": "8-6-a,8.6.a,8.6",
+          "href": "/open-sdg-site-starter/8-6-a",
           "status": "complete"
         }]
     }
@@ -274,18 +274,18 @@
       "id": "10",
       "title": "Ungleichheit in und zwischen Ländern verringern",
       "indicators": [{
-          "id": "10-2-a",
-          "title": "Gini-Koeffizient zur Ein&shy;kommens&shy;ver&shy;teilung",
-          "description": "",
-          "keywords": "10-2-a,10.2.a,10.2",
-          "href": "/open-sdg-site-starter/10-2-a",
-          "status": "complete"
-        },{
           "id": "10-1-a",
           "title": "Ausländische Schul&shy;absol&shy;ven&shy;tinnen und Schul&shy;absol&shy;venten",
           "description": "",
           "keywords": "10-1-a,10.1.a,10.1",
           "href": "/open-sdg-site-starter/10-1-a",
+          "status": "complete"
+        },{
+          "id": "10-2-a",
+          "title": "Gini-Koeffizient zur Ein&shy;kommens&shy;ver&shy;teilung",
+          "description": "",
+          "keywords": "10-2-a,10.2.a,10.2",
+          "href": "/open-sdg-site-starter/10-2-a",
           "status": "complete"
         }]
     }
@@ -294,11 +294,25 @@
       "id": "11",
       "title": "Städte und Siedlungen inklusiv, sicher, widerstandsfähig und nachhaltig gestalten",
       "indicators": [{
-          "id": "11-1-b",
-          "title": "Freiraumverlust",
+          "id": "11-2-b",
+          "title": "End&shy;energie&shy;ver&shy;brauch im Per&shy;sonen&shy;ver&shy;kehr",
           "description": "",
-          "keywords": "11-1-b,11.1.b,11.1.b",
-          "href": "/open-sdg-site-starter/11-1-b",
+          "keywords": "11-2-b,11.2.b,11.2.b",
+          "href": "/open-sdg-site-starter/11-2-b",
+          "status": "complete"
+        },{
+          "id": "11-4-a",
+          "title": "Zahl der Objekte in der Deutschen Digitalen Bibliothek",
+          "description": "",
+          "keywords": "11-4-a,11.4.a,11.4",
+          "href": "/open-sdg-site-starter/11-4-a",
+          "status": "complete"
+        },{
+          "id": "11-1-a",
+          "title": "Anstieg der Siedlungs- und Verkehrsfläche",
+          "description": "",
+          "keywords": "11-1-a,11.1.a,11.1.a",
+          "href": "/open-sdg-site-starter/11-1-a",
           "status": "complete"
         },{
           "id": "11-1-c",
@@ -315,27 +329,6 @@
           "href": "/open-sdg-site-starter/11-2-a",
           "status": "complete"
         },{
-          "id": "11-4-a",
-          "title": "Zahl der Objekte in der Deutschen Digitalen Bibliothek",
-          "description": "",
-          "keywords": "11-4-a,11.4.a,11.4",
-          "href": "/open-sdg-site-starter/11-4-a",
-          "status": "complete"
-        },{
-          "id": "11-2-b",
-          "title": "End&shy;energie&shy;ver&shy;brauch im Per&shy;sonen&shy;ver&shy;kehr",
-          "description": "",
-          "keywords": "11-2-b,11.2.b,11.2.b",
-          "href": "/open-sdg-site-starter/11-2-b",
-          "status": "complete"
-        },{
-          "id": "11-3-a",
-          "title": "Überlastung durch Wohnkosten",
-          "description": "",
-          "keywords": "11-3-a,11.3.a,11.3",
-          "href": "/open-sdg-site-starter/11-3-a",
-          "status": "complete"
-        },{
           "id": "11-2-c",
           "title": "Erreichbarkeit von Mittel- und Oberzentren mit öffentlichen Verkehrsmitteln",
           "description": "",
@@ -343,11 +336,18 @@
           "href": "/open-sdg-site-starter/11-2-c",
           "status": "complete"
         },{
-          "id": "11-1-a",
-          "title": "Anstieg der Siedlungs- und Verkehrsfläche",
+          "id": "11-1-b",
+          "title": "Freiraumverlust",
           "description": "",
-          "keywords": "11-1-a,11.1.a,11.1.a",
-          "href": "/open-sdg-site-starter/11-1-a",
+          "keywords": "11-1-b,11.1.b,11.1.b",
+          "href": "/open-sdg-site-starter/11-1-b",
+          "status": "complete"
+        },{
+          "id": "11-3-a",
+          "title": "Überlastung durch Wohnkosten",
+          "description": "",
+          "keywords": "11-3-a,11.3.a,11.3",
+          "href": "/open-sdg-site-starter/11-3-a",
           "status": "complete"
         }]
     }
@@ -390,18 +390,18 @@
       "id": "13",
       "title": "Umgehend Maßnahmen zur Bekämpfung des Klimawandels und seiner Auswirkungen ergreifen",
       "indicators": [{
-          "id": "13-1-b",
-          "title": "Internationale Klima&shy;finan&shy;zie&shy;rung zur Reduktion von Treibhausgasen und zur Anpassung an den Klimawandel",
-          "description": "",
-          "keywords": "13-1-b,13.1.b,13.1.b",
-          "href": "/open-sdg-site-starter/13-1-b",
-          "status": "complete"
-        },{
           "id": "13-1-a",
           "title": "Treib&shy;haus&shy;gas&shy;emiss&shy;ionen",
           "description": "",
           "keywords": "13-1-a,13.1.a,13.1.a",
           "href": "/open-sdg-site-starter/13-1-a",
+          "status": "complete"
+        },{
+          "id": "13-1-b",
+          "title": "Internationale Klima&shy;finan&shy;zie&shy;rung zur Reduktion von Treibhausgasen und zur Anpassung an den Klimawandel",
+          "description": "",
+          "keywords": "13-1-b,13.1.b,13.1.b",
+          "href": "/open-sdg-site-starter/13-1-b",
           "status": "complete"
         }]
     }
@@ -410,18 +410,18 @@
       "id": "14",
       "title": "Ozeane, Meere und Meeresressourcen im Sinne nachhaltiger Entwicklung erhalten und nachhaltig nutzen",
       "indicators": [{
-          "id": "14-1-a",
-          "title": "Stickstoffeintrag über die Zuflüsse in Nord- und Ostsee",
-          "description": "",
-          "keywords": "14-1-a,14.1.a,14.1.a",
-          "href": "/open-sdg-site-starter/14-1-a",
-          "status": "complete"
-        },{
           "id": "14-1-b",
           "title": "Anteil der nachhaltig befischten Fischbestände in Nord- und Ostsee",
           "description": "",
           "keywords": "14-1-b,14.1.b,14.1.b",
           "href": "/open-sdg-site-starter/14-1-b",
+          "status": "complete"
+        },{
+          "id": "14-1-a",
+          "title": "Stickstoffeintrag über die Zuflüsse in Nord- und Ostsee",
+          "description": "",
+          "keywords": "14-1-a,14.1.a,14.1.a",
+          "href": "/open-sdg-site-starter/14-1-a",
           "status": "complete"
         }]
     }
@@ -430,18 +430,18 @@
       "id": "15",
       "title": "Landökosysteme schützen, wiederherstellen und ihre nachhaltige Nutzung fördern, Wälder nachhaltig bewirtschaften, Wüstenbildung bekämpfen, Bodendegradation beenden und umkehren und dem Verlust der biologischen Vielfalt ein Ende setzen",
       "indicators": [{
-          "id": "15-1-a",
-          "title": "Artenvielfalt und Land&shy;schafts&shy;quali&shy;tät",
-          "description": "",
-          "keywords": "15-1-a,15.1.a,15.1",
-          "href": "/open-sdg-site-starter/15-1-a",
-          "status": "complete"
-        },{
           "id": "15-3-a",
           "title": "Erhalt bzw. Wiederaufbau von Wäldern in Entwick&shy;lungs&shy;ländern unter dem REDD+-Regelwerk",
           "description": "",
           "keywords": "15-3-a,15.3.a,15.3",
           "href": "/open-sdg-site-starter/15-3-a",
+          "status": "complete"
+        },{
+          "id": "15-1-a",
+          "title": "Artenvielfalt und Land&shy;schafts&shy;quali&shy;tät",
+          "description": "",
+          "keywords": "15-1-a,15.1.a,15.1",
+          "href": "/open-sdg-site-starter/15-1-a",
           "status": "complete"
         },{
           "id": "15-2-a",
@@ -457,6 +457,13 @@
       "id": "16",
       "title": "Friedliche und inklusive Gesellschaften für eine nachhaltige Entwicklung fördern, allen Menschen Zugang zur Justiz ermöglichen und leistungsfähige, rechenschaftspflichtige und inklusive Institutionen auf allen Ebenen aufbauen",
       "indicators": [{
+          "id": "16-2-a",
+          "title": "Anzahl der in betroffenen Weltregionen durchgeführten Projekte zur Sicherung, Registrierung und Zerstörung von Kleinwaffen und leichten Waffen durch Deutschland",
+          "description": "",
+          "keywords": "16-2-a,16.2.a,16.2",
+          "href": "/open-sdg-site-starter/16-2-a",
+          "status": "complete"
+        },{
           "id": "16-3-ab",
           "title": "Corruption Perception Index in Deutschland sowie in den Partnerländern der deutschen Entwicklungs&shy;zusammen&shy;arbeit",
           "description": "",
@@ -469,13 +476,6 @@
           "description": "",
           "keywords": "16-1-a,16.1.a,16.1",
           "href": "/open-sdg-site-starter/16-1-a",
-          "status": "complete"
-        },{
-          "id": "16-2-a",
-          "title": "Anzahl der in betroffenen Weltregionen durchgeführten Projekte zur Sicherung, Registrierung und Zerstörung von Kleinwaffen und leichten Waffen durch Deutschland",
-          "description": "",
-          "keywords": "16-2-a,16.2.a,16.2",
-          "href": "/open-sdg-site-starter/16-2-a",
           "status": "complete"
         }]
     }
