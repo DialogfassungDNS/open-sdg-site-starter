@@ -1417,7 +1417,7 @@ var indicatorDataStore = function(dataUrl) {
         //   }) : undefined,
 
         //---#4 sameColorForTargetAndTimeSeries---start-----------------
-        var categ = combinationDescription.substring(0, 4)
+        var categ = combinationDescription ? combinationDescription.substring(0, 4) : ""
         if (categ == 'Ziel' || categ == 'Zeit' || categ == 'Targ' || categ == 'Time') {
           if (combinationDescription.indexOf(',') != -1){
             var sub = combinationDescription.substring(combinationDescription.indexOf(','), combinationDescription.length)
