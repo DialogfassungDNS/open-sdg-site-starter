@@ -1256,7 +1256,7 @@ var indicatorDataStore = function(dataUrl) {
 
       getCombinationDescription = function(combination) {
         return _.map(Object.keys(combination), function(key) {
-          if(combination[key].indexOf('(show category)') != -1 {
+          if(combination[key].indexOf('(show category)')) != -1 {
             return translations.t(key) + ': ' + translations.t(combination[key]);
           } else {
             return translations.t(combination[key]);
