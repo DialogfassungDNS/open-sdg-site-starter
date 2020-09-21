@@ -1574,9 +1574,9 @@ var indicatorDataStore = function(dataUrl) {
 
       if(filtered.length) {
         // but some combinations may not have any data:
+        console.log('filtered',filtered),
+        console.log('combination',combination),
         filteredDatasets.push({
-          console.log('filtered',filtered),
-          console.log('combination',combination),
           data: filtered,
           combinationDescription: getCombinationDescription(combination)
         });
