@@ -729,6 +729,8 @@ var indicatorModel = function (options) {
       if(filtered.length) {
         // but some combinations may not have any data:
         filteredDatasets.push({
+          console.log('filtered',filtered),
+          console.log('combination',combination),
           data: filtered,
           combinationDescription: getCombinationDescription(combination)
         });
