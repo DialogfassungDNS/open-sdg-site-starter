@@ -188,7 +188,7 @@ var indicatorModel = function (options) {
     that.footerFields = _.pick(that.footerFields, _.identity);
   }());
 
-  var headlineColor = '777777';
+  //var headlineColor = '777777';
 
   //---
 
@@ -231,9 +231,11 @@ var indicatorModel = function (options) {
     this.numberOfColors = {{ site.graph_color_number | jsonify }};
     this.customColors = {{ site.graph_color_list | jsonify }};
     var colors = opensdg.chartColors(this.shortIndicatorId, this.colorSet, this.numberOfColors, this.customColors);
+    var headlineColor = colors[0];
   }
   else{
     var colors = ['7e984f', '8d73ca', 'aaa533', 'c65b8a', '4aac8d', 'c95f44'];
+    var headlineColor = '777777';
   }
 
    var headlinePointstyle = 'circle';
@@ -408,8 +410,11 @@ var indicatorModel = function (options) {
 
       getCombinationDescription = function(combination) {
         return _.map(Object.keys(combination), function(key) {
-          return translations.t(combination[key]);
-          //return key + ' ' + combination[key];
+          if(combination[key].indexOf('(show category)') != -1 ){
+            return translations.t(key) + ': ' + translations.t(combination[key]);
+          } else {
+            return translations.t(combination[key]);
+          }
         }).join(', ');
       },
 
@@ -524,8 +529,8 @@ var indicatorModel = function (options) {
       //--#14 mixedCharts---stop--------------------------------------------------------------------------------------------------------
 
       //--#14.1 barsOnly---start--------------------------------------------------------------------------------------------------------
-      barCharts = ['indicator_2-2-a','indicator_3-1-e','indicator_5-1-b','indicator_5-1-c','indicator_6-2-a','indicator_8-2-c','indicator_8-3-a',
-      'indicator_8-4-a','indicator_8-6-a','indicator_11-1-a','indicator_11-1-b','indicator_11-2-c','indicator_12-1-a','indicator_12-1-b','indicator_13-1-b','indicator_15-2-a','indicator_16-1-a','indicator_16-2-a','indicator_17-1-a','indicator_17-2-a'];
+      barCharts = ['indicator_2-2-a','indicator_3-1-e','indicator_5-1-b','indicator_5-1-c','indicator_5-1-e','indicator_6-2-a','indicator_8-2-c','indicator_8-3-a',
+      'indicator_8-4-a','indicator_8-6-a','indicator_11-1-a','indicator_11-1-b','indicator_11-2-c','indicator_12-1-a','indicator_13-1-b','indicator_15-2-a','indicator_16-1-a','indicator_16-2-a','indicator_17-1-a','indicator_17-2-a'];
 
       bl = ['bw','by','be','bb','hb','hh','he','mv','ni','nw','rp','sl','sn','st','sh','th'];
 
@@ -571,7 +576,7 @@ var indicatorModel = function (options) {
         //   }) : undefined,
 
         //---#4 sameColorForTargetAndTimeSeries---start-----------------
-        var categ = combinationDescription.substring(0, 4)
+        var categ = combinationDescription ? combinationDescription.substring(0, 4) : ""
         if (categ == 'Ziel' || categ == 'Zeit' || categ == 'Targ' || categ == 'Time') {
           if (combinationDescription.indexOf(',') != -1){
             var sub = combinationDescription.substring(combinationDescription.indexOf(','), combinationDescription.length)
@@ -604,7 +609,7 @@ var indicatorModel = function (options) {
         var fieldIndex,
           ds = _.extend({
 
-            label: combinationDescription ? combinationDescription : that.country,
+            label: combinationDescription ? combinationDescription : 'Insgesamt', //that.country,
             //---#13 noLineForTargets---start-------------------------------
             borderColor: getBorderColor(combinationDescription,datasetIndexMod,that.indicatorId),//'#' + getColor(datasetIndexMod),
             //borderColor: getLineStyle(combinationDescription, datasetIndexMod),
@@ -726,6 +731,8 @@ var indicatorModel = function (options) {
 
       if(filtered.length) {
         // but some combinations may not have any data:
+        console.log('filtered',filtered),
+        console.log('combination',combination),
         filteredDatasets.push({
           data: filtered,
           combinationDescription: getCombinationDescription(combination)
