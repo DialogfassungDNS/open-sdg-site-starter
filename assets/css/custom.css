@@ -1,5 +1,6 @@
-.balckLink {
-  color: black; }
+.blackLink {
+  color: black;
+  text-decoration: underline; }
 
 .danger {
   background-color: #E27874; }
