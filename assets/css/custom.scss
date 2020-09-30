@@ -3,6 +3,9 @@
 .blackLink {
   color: black;
   text-decoration: underline;
+  &:hover {
+    color: #777;
+  }
 }
 
 .contrast-high {
