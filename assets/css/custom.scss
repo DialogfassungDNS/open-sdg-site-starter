@@ -5,6 +5,15 @@
   text-decoration: underline;
 }
 
+.contrast-high {
+  .blackLink {
+    color: white;
+    &:hover {
+      color: yellow;
+    }
+  }
+}
+
 
 $vanilla: #fff;
 $main-background-color: #eaeaea;
