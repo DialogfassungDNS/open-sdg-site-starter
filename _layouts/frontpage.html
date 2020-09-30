@@ -7,6 +7,7 @@
     <h2>
         Indikatoren zur <a href="https://www.bundesregierung.de/breg-de/themen/nachhaltigkeitspolitik/eine-strategie-begleitet-uns/dialog-zur-nachhaltigkeit" style="color: black">  <u>Dialogfassung</u></a> der Deutschen Nachhaltigkeitsstrategie<br><small>Weiterentwicklung 2021</small>
     </h2>
+    <a href="https://dns-indikatoren.de" class="btn btn-primary btn-block frontBtn" role="button" style="margin-bottom: 15px; margin-top: 15px;"> <span class="hidden-xs">Indikatoren der aktuell gültigen Fassung</span><span class="hidden-sm hidden-md hidden-lg">Aktuell gültige Fassung</span></a>
     
 
     {% assign instructions_default = t.frontpage.instructions_dns | replace_first: '%before_link', '<span id="jump-to-search"><a>' | replace_first: '%after_link', '</a></span>' | replace_first: '%name', country_name %}
@@ -37,9 +38,11 @@
         </div>
     {% endif %}
     </div>
+    <!--
     <h1>
         <a href="https://sustainabledevelopment-deutschland.github.io//">
             <small>Zu den Indikatoren der <u>aktuell gültigen Fassung</u> der Deutschen Nachhaltigkeitsstrategie</small>
     </h1>
+    -->
 </div>
 {% include footer.html %}
