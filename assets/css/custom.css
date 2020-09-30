@@ -2,6 +2,11 @@
   color: black;
   text-decoration: underline; }
 
+.contrast-high .blackLink {
+  color: white; }
+  .contrast-high .blackLink:hover {
+    color: yellow; }
+
 .danger {
   background-color: #E27874; }
 
