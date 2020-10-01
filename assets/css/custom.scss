@@ -1,5 +1,22 @@
 ---
 ---
+.blackLink {
+  color: black;
+  text-decoration: underline;
+  &:hover {
+    color: #777;
+  }
+}
+
+.contrast-high {
+  .blackLink {
+    color: white;
+    &:hover {
+      color: yellow;
+    }
+  }
+}
+
 
 $vanilla: #fff;
 $main-background-color: #eaeaea;
@@ -1079,3 +1096,5 @@ figcaption {
   caption-side: bottom;
 }
 //---------------------------
+
+
