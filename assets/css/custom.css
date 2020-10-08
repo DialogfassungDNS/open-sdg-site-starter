@@ -1,3 +1,9 @@
+.no-gutters img {
+  width: 100%;
+  border: 2px solid;
+  padding: 2px;
+  margin: 2px 2px 0 0; }
+
 #goal-1 {
   border: 2px;
   border-color: #E52B3D; }
