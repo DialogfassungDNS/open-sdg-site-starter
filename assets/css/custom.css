@@ -676,9 +676,9 @@ header {
   border-color: #c51829;
   color: #c51829; }
 
-.goal-tiles #goal-1 {
+.goal-tiles #goal-1-new {
   border-color: #E52B3D; }
-  .goal-tiles #goal-1:hover {
+  .goal-tiles #goal-1-new:hover {
     background-color: #c51829; }
 
 .goal-2.heading {
@@ -698,9 +698,9 @@ header {
   border-color: #c28c22;
   color: #c28c22; }
 
-.goal-tiles #goal-2 {
+.goal-tiles #goal-2-new {
   border-color: #DDA63A; }
-  .goal-tiles #goal-2:hover {
+  .goal-tiles #goal-2-new:hover {
     background-color: #c28c22; }
 
 .goal-3.heading {
@@ -720,9 +720,9 @@ header {
   border-color: #3a792b;
   color: #3a792b; }
 
-.goal-tiles #goal-3 {
+.goal-tiles #goal-3-new {
   border-color: #4C9F38; }
-  .goal-tiles #goal-3:hover {
+  .goal-tiles #goal-3-new:hover {
     background-color: #3a792b; }
 
 .goal-4.heading {
@@ -742,9 +742,9 @@ header {
   border-color: #981a25;
   color: #981a25; }
 
-.goal-tiles #goal-4 {
+.goal-tiles #goal-4-new {
   border-color: #C42130; }
-  .goal-tiles #goal-4:hover {
+  .goal-tiles #goal-4-new:hover {
     background-color: #981a25; }
 
 .goal-5.heading {
@@ -764,9 +764,9 @@ header {
   border-color: #f01c00;
   color: #f01c00; }
 
-.goal-tiles #goal-5 {
+.goal-tiles #goal-5-new {
   border-color: #FF3E24; }
-  .goal-tiles #goal-5:hover {
+  .goal-tiles #goal-5-new:hover {
     background-color: #f01c00; }
 
 .goal-6.heading {
@@ -786,9 +786,9 @@ header {
   border-color: #1a9bbc;
   color: #1a9bbc; }
 
-.goal-tiles #goal-6 {
+.goal-tiles #goal-6-new {
   border-color: #28BCE1; }
-  .goal-tiles #goal-6:hover {
+  .goal-tiles #goal-6-new:hover {
     background-color: #1a9bbc; }
 
 .goal-7.heading {
@@ -808,9 +808,9 @@ header {
   border-color: #d1a103;
   color: #d1a103; }
 
-.goal-tiles #goal-7 {
+.goal-tiles #goal-7-new {
   border-color: #FCC30B; }
-  .goal-tiles #goal-7:hover {
+  .goal-tiles #goal-7-new:hover {
     background-color: #d1a103; }
 
 .goal-8.heading {
@@ -830,9 +830,9 @@ header {
   border-color: #761230;
   color: #761230; }
 
-.goal-tiles #goal-8 {
+.goal-tiles #goal-8-new {
   border-color: #A21942; }
-  .goal-tiles #goal-8:hover {
+  .goal-tiles #goal-8-new:hover {
     background-color: #761230; }
 
 .goal-9.heading {
@@ -852,9 +852,9 @@ header {
   border-color: #ed4c02;
   color: #ed4c02; }
 
-.goal-tiles #goal-9 {
+.goal-tiles #goal-9-new {
   border-color: #FD6925; }
-  .goal-tiles #goal-9:hover {
+  .goal-tiles #goal-9-new:hover {
     background-color: #ed4c02; }
 
 .goal-10.heading {
@@ -874,9 +874,9 @@ header {
   border-color: #ae0f51;
   color: #ae0f51; }
 
-.goal-tiles #goal-10 {
+.goal-tiles #goal-10-new {
   border-color: #DD1367; }
-  .goal-tiles #goal-10:hover {
+  .goal-tiles #goal-10-new:hover {
     background-color: #ae0f51; }
 
 .goal-11.heading {
@@ -896,9 +896,9 @@ header {
   border-color: #ef8402;
   color: #ef8402; }
 
-.goal-tiles #goal-11 {
+.goal-tiles #goal-11-new {
   border-color: #FD9C27; }
-  .goal-tiles #goal-11:hover {
+  .goal-tiles #goal-11-new:hover {
     background-color: #ef8402; }
 
 .goal-12.heading {
@@ -918,9 +918,9 @@ header {
   border-color: #966d24;
   color: #966d24; }
 
-.goal-tiles #goal-12 {
+.goal-tiles #goal-12-new {
   border-color: #BF8B2E; }
-  .goal-tiles #goal-12:hover {
+  .goal-tiles #goal-12-new:hover {
     background-color: #966d24; }
 
 .goal-13.heading {
@@ -940,9 +940,9 @@ header {
   border-color: #305b33;
   color: #305b33; }
 
-.goal-tiles #goal-13 {
+.goal-tiles #goal-13-new {
   border-color: #417D46; }
-  .goal-tiles #goal-13:hover {
+  .goal-tiles #goal-13-new:hover {
     background-color: #305b33; }
 
 .goal-14.heading {
@@ -962,9 +962,9 @@ header {
   border-color: #0874a7;
   color: #0874a7; }
 
-.goal-tiles #goal-14 {
+.goal-tiles #goal-14-new {
   border-color: #0A96D8; }
-  .goal-tiles #goal-14:hover {
+  .goal-tiles #goal-14-new:hover {
     background-color: #0874a7; }
 
 .goal-15.heading {
@@ -984,9 +984,9 @@ header {
   border-color: #449525;
   color: #449525; }
 
-.goal-tiles #goal-15 {
+.goal-tiles #goal-15-new {
   border-color: #57BE2F; }
-  .goal-tiles #goal-15:hover {
+  .goal-tiles #goal-15-new:hover {
     background-color: #449525; }
 
 .goal-16.heading {
@@ -1006,9 +1006,9 @@ header {
   border-color: #004669;
   color: #004669; }
 
-.goal-tiles #goal-16 {
+.goal-tiles #goal-16-new {
   border-color: #00689C; }
-  .goal-tiles #goal-16:hover {
+  .goal-tiles #goal-16-new:hover {
     background-color: #004669; }
 
 .goal-17.heading {
@@ -1028,9 +1028,9 @@ header {
   border-color: #132e43;
   color: #132e43; }
 
-.goal-tiles #goal-17 {
+.goal-tiles #goal-17-new {
   border-color: #1F4A6A; }
-  .goal-tiles #goal-17:hover {
+  .goal-tiles #goal-17-new:hover {
     background-color: #132e43; }
 
 body.contrast-high {
