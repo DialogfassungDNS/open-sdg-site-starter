@@ -4,14 +4,20 @@
 
 <div id="main-content" class="container goal-tiles" role="main">
 
-  <h3 style="text-align:center; margin-bottom: 25px;">
-    <i class="fa fa-exclamation-triangle" style="color: red"></i> Indikatoren zur Dialogfassung der Deutschen Nachhaltigkeitsstrategie <small><br>- Weiterentwicklung 2021 -</small><br>
+  <h3 style="text-align:left; margin-bottom: 25px;">
+  <!--<h3 style="text-align:center; margin-bottom: 25px;">
+    <i class="fa fa-exclamation-triangle" style="color: red"></i> Indikatoren zur Dialogfassung der Deutschen Nachhaltigkeitsstrategie <small><br>- Weiterentwicklung 2021 -</small><br>-->
+    Indikatoren zur Dialogfassung der Deutschen Nachhaltigkeitsstrategie – Weiterentwicklung 2021
   </h3>
-  <h4 style="text-align:center;margin-bottom: 3.5rem;">
+  <!--<h4 style="text-align:center;margin-bottom: 3.5rem;">
     <a href="https://www.bundesregierung.de/breg-de/themen/nachhaltigkeitspolitik/eine-strategie-begleitet-uns/dialog-zur-nachhaltigkeit" target="_blank"><i class="fa fa-comment"></i> Für Anmerkungen und Kommentare nehmen Sie bitte an der Online-Konsultation zur Weiterentwicklung der Deutschen Nachhaltigkeitsstrategie auf der Seite der Bundesregierung teil</a>.
-  </h4>
-    <a href="https://dns-indikatoren.de" class="btn btn-primary btn-block frontBtn" role="button" style="margin-bottom: 15px; margin-top: 15px;"> <span class="hidden-xs">Indikatoren der aktuell gültigen Fassung</span><span class="hidden-sm hidden-md hidden-lg">Aktuell gültige Fassung</span></a>
+  -->
+  <h4 style="text-align:left;margin-bottom: 3.5rem;">
+    <a href="https://www.bundesregierung.de/breg-de/themen/nachhaltigkeitspolitik/eine-strategie-begleitet-uns/dialog-zur-nachhaltigkeit" target="_blank"><i class="fa fa-comment"></i> Weiterentwicklung 2021 – Diskutieren Sie mit!</a>.
     
+  </h4>
+    <!--<a href="https://dns-indikatoren.de" class="btn btn-primary btn-block frontBtn" role="button" style="margin-bottom: 15px; margin-top: 15px;"> <span class="hidden-xs">Indikatoren der aktuell gültigen Fassung</span><span class="hidden-sm hidden-md hidden-lg">Aktuell gültige Fassung</span></a>
+    --><a href="https://dns-indikatoren.de" class="btn btn-primary btn-block frontBtn" role="button" style="margin-bottom: 15px; margin-top: 15px;"> <span class="hidden-xs">Indikatoren der aktuell gültigen Fassung</span><span class="hidden-sm hidden-md hidden-lg">Indikatoren des Berichts 2018</span></a>
 
     {% assign instructions_default = t.frontpage.instructions_dns | replace_first: '%before_link', '<span id="jump-to-search"><a>' | replace_first: '%after_link', '</a></span>' | replace_first: '%name', country_name %}
     <p>{{ site.frontpage_instructions | default: instructions_default | t }}</p>
