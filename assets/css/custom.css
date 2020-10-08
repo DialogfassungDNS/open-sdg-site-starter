@@ -744,8 +744,10 @@ header {
   border-color: #c51829;
   color: #c51829; }
 
-.goal-tiles #goal-1:hover {
-  background-color: #E52B3D; }
+.goal-tiles #goal-1 {
+  border-color: #E52B3D; }
+  .goal-tiles #goal-1:hover {
+    background-color: #c51829; }
 
 .goal-2.heading {
   background-color: white;
@@ -764,8 +766,10 @@ header {
   border-color: #c28c22;
   color: #c28c22; }
 
-.goal-tiles #goal-2:hover {
-  background-color: #DDA63A; }
+.goal-tiles #goal-2 {
+  border-color: #DDA63A; }
+  .goal-tiles #goal-2:hover {
+    background-color: #c28c22; }
 
 .goal-3.heading {
   background-color: white;
@@ -784,8 +788,10 @@ header {
   border-color: #3a792b;
   color: #3a792b; }
 
-.goal-tiles #goal-3:hover {
-  background-color: #4C9F38; }
+.goal-tiles #goal-3 {
+  border-color: #4C9F38; }
+  .goal-tiles #goal-3:hover {
+    background-color: #3a792b; }
 
 .goal-4.heading {
   background-color: white;
@@ -804,8 +810,10 @@ header {
   border-color: #981a25;
   color: #981a25; }
 
-.goal-tiles #goal-4:hover {
-  background-color: #C42130; }
+.goal-tiles #goal-4 {
+  border-color: #C42130; }
+  .goal-tiles #goal-4:hover {
+    background-color: #981a25; }
 
 .goal-5.heading {
   background-color: white;
@@ -824,8 +832,10 @@ header {
   border-color: #f01c00;
   color: #f01c00; }
 
-.goal-tiles #goal-5:hover {
-  background-color: #FF3E24; }
+.goal-tiles #goal-5 {
+  border-color: #FF3E24; }
+  .goal-tiles #goal-5:hover {
+    background-color: #f01c00; }
 
 .goal-6.heading {
   background-color: white;
@@ -844,8 +854,10 @@ header {
   border-color: #1a9bbc;
   color: #1a9bbc; }
 
-.goal-tiles #goal-6:hover {
-  background-color: #28BCE1; }
+.goal-tiles #goal-6 {
+  border-color: #28BCE1; }
+  .goal-tiles #goal-6:hover {
+    background-color: #1a9bbc; }
 
 .goal-7.heading {
   background-color: white;
@@ -864,8 +876,10 @@ header {
   border-color: #d1a103;
   color: #d1a103; }
 
-.goal-tiles #goal-7:hover {
-  background-color: #FCC30B; }
+.goal-tiles #goal-7 {
+  border-color: #FCC30B; }
+  .goal-tiles #goal-7:hover {
+    background-color: #d1a103; }
 
 .goal-8.heading {
   background-color: white;
@@ -884,8 +898,10 @@ header {
   border-color: #761230;
   color: #761230; }
 
-.goal-tiles #goal-8:hover {
-  background-color: #A21942; }
+.goal-tiles #goal-8 {
+  border-color: #A21942; }
+  .goal-tiles #goal-8:hover {
+    background-color: #761230; }
 
 .goal-9.heading {
   background-color: white;
@@ -904,8 +920,10 @@ header {
   border-color: #ed4c02;
   color: #ed4c02; }
 
-.goal-tiles #goal-9:hover {
-  background-color: #FD6925; }
+.goal-tiles #goal-9 {
+  border-color: #FD6925; }
+  .goal-tiles #goal-9:hover {
+    background-color: #ed4c02; }
 
 .goal-10.heading {
   background-color: white;
@@ -924,8 +942,10 @@ header {
   border-color: #ae0f51;
   color: #ae0f51; }
 
-.goal-tiles #goal-10:hover {
-  background-color: #DD1367; }
+.goal-tiles #goal-10 {
+  border-color: #DD1367; }
+  .goal-tiles #goal-10:hover {
+    background-color: #ae0f51; }
 
 .goal-11.heading {
   background-color: white;
@@ -944,8 +964,10 @@ header {
   border-color: #ef8402;
   color: #ef8402; }
 
-.goal-tiles #goal-11:hover {
-  background-color: #FD9C27; }
+.goal-tiles #goal-11 {
+  border-color: #FD9C27; }
+  .goal-tiles #goal-11:hover {
+    background-color: #ef8402; }
 
 .goal-12.heading {
   background-color: white;
@@ -964,8 +986,10 @@ header {
   border-color: #966d24;
   color: #966d24; }
 
-.goal-tiles #goal-12:hover {
-  background-color: #BF8B2E; }
+.goal-tiles #goal-12 {
+  border-color: #BF8B2E; }
+  .goal-tiles #goal-12:hover {
+    background-color: #966d24; }
 
 .goal-13.heading {
   background-color: white;
@@ -984,8 +1008,10 @@ header {
   border-color: #305b33;
   color: #305b33; }
 
-.goal-tiles #goal-13:hover {
-  background-color: #417D46; }
+.goal-tiles #goal-13 {
+  border-color: #417D46; }
+  .goal-tiles #goal-13:hover {
+    background-color: #305b33; }
 
 .goal-14.heading {
   background-color: white;
@@ -1004,8 +1030,10 @@ header {
   border-color: #0874a7;
   color: #0874a7; }
 
-.goal-tiles #goal-14:hover {
-  background-color: #0A96D8; }
+.goal-tiles #goal-14 {
+  border-color: #0A96D8; }
+  .goal-tiles #goal-14:hover {
+    background-color: #0874a7; }
 
 .goal-15.heading {
   background-color: white;
@@ -1024,8 +1052,10 @@ header {
   border-color: #449525;
   color: #449525; }
 
-.goal-tiles #goal-15:hover {
-  background-color: #57BE2F; }
+.goal-tiles #goal-15 {
+  border-color: #57BE2F; }
+  .goal-tiles #goal-15:hover {
+    background-color: #449525; }
 
 .goal-16.heading {
   background-color: white;
@@ -1044,8 +1074,10 @@ header {
   border-color: #004669;
   color: #004669; }
 
-.goal-tiles #goal-16:hover {
-  background-color: #00689C; }
+.goal-tiles #goal-16 {
+  border-color: #00689C; }
+  .goal-tiles #goal-16:hover {
+    background-color: #004669; }
 
 .goal-17.heading {
   background-color: white;
@@ -1064,8 +1096,10 @@ header {
   border-color: #132e43;
   color: #132e43; }
 
-.goal-tiles #goal-17:hover {
-  background-color: #1F4A6A; }
+.goal-tiles #goal-17 {
+  border-color: #1F4A6A; }
+  .goal-tiles #goal-17:hover {
+    background-color: #132e43; }
 
 body.contrast-high {
   background-color: black; }
