@@ -27,12 +27,13 @@
         {%- assign goal_number = goal.sdg_goal -%}
         {%- assign goal_short_key = goal_number | append: '-short' -%}
         {%- assign goal_short = t.global_goals[goal_short_key] -%}
+        {% assign color_key = goal_number | minus: 1 %}
 
         {% cycle 'add row' : '<div class="row no-gutters">', '', '', '', '', '' %}
             <div class="col-xs-4 col-md-2">
-              {{ colors[goal_number-1] }}
+              {{ colors[color_key] }}
               <a href="./{{ goal_number }}/">
-                  <img src="{{ site.goal_image_base }}/{{ current_language }}/{{ goal_number }}.png" id="goal-{{ goal_number }}-new" style="border-color: {{ colors[goal_number] }}" alt="{{ goal_short }} - {{ t.general.goal }} {{ goal_number }}" />
+                  <img src="{{ site.goal_image_base }}/{{ current_language }}/{{ goal_number }}.png" id="goal-{{ goal_number }}-new" style="border-color: {{ colors[color_key] }}" alt="{{ goal_short }} - {{ t.general.goal }} {{ goal_number }}" />
               </a>
             </div>
         {% cycle 'end row' : '', '', '', '', '', '</div>' %}
