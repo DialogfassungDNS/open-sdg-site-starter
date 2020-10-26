@@ -799,7 +799,7 @@ var indicatorView = function (model, options) {
       });
 
       //---Edit from 26.10.20: Add all Units to headline
-      currentTable.append('<caption>' + that._model.chartTitle + ' ' + tableUnit + '</caption>');
+      currentTable.append('<caption>' + that._model.chartTitle + ' - ' + tableUnit + '</caption>');
       //currentTable.append('<caption>' + that._model.chartTitle + '</caption>');
 
 
