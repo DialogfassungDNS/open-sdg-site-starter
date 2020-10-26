@@ -797,7 +797,7 @@ var indicatorView = function (model, options) {
       });
 
       //---Add Unit to chart heading
-      currentTable.append('<caption>' + that._model.chartTitle + ' ' + chartInfo.footerFields[translations.indicator.unit_of_measurement] + '</caption>');
+      currentTable.append('<caption>' + that._model.chartTitle + ' ' + tableUnit + '</caption>');
       //currentTable.append('<caption>' + that._model.chartTitle + '</caption>');
 
 
