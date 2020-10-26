@@ -2589,7 +2589,7 @@ var indicatorView = function (model, options) {
         //'id': currentId
       });
 
-      //---Add Unit to chart heading
+      //---Edit from 26.10.20: Add all Units to headline
       currentTable.append('<caption>' + that._model.chartTitle + ' ' + tableUnit + '</caption>');
       //currentTable.append('<caption>' + that._model.chartTitle + '</caption>');
 
@@ -2600,8 +2600,9 @@ var indicatorView = function (model, options) {
         var span = '<span class="sort" />';
         var span_heading = '<span>' + translations.t(heading) + '</span>';
         //---#19 addUnitToTableHeaderIfNeeded---start---------------------------------------------------
-        //return (!index || heading.toLowerCase() == 'units') ? span_heading + span : span + span_heading;
-        return (!index || heading.toLowerCase() == 'units') ? span_heading + span : span + span_heading + ((tableUnit == '') ? '' : ('<br>(' + tableUnit)+')');
+        //---Undo via Edit from 26.10.20: Add all Units to headline
+        return (!index || heading.toLowerCase() == 'units') ? span_heading + span : span + span_heading;
+        //return (!index || heading.toLowerCase() == 'units') ? span_heading + span : span + span_heading + ((tableUnit == '') ? '' : ('<br>(' + tableUnit)+')');
         //---#19 addUnitToTableHeaderIfNeeded---stop----------------------------------------------------
       };
       table.headings.forEach(function (heading, index) {
