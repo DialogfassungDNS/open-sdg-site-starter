@@ -713,9 +713,7 @@ var indicatorView = function (model, options) {
 
   this.createSelectionsTable = function(chartInfo) {
     //---#19 addUnitToTableHeaderIfNeeded---start---------------------------------------------------
-    //---Edit on 26.10.2020: add Unit allways----
-    //var tableUnit = (chartInfo.selectedUnit && !chartInfo.footerFields[translations.indicator.unit_of_measurement]) ? translations.t(chartInfo.selectedUnit) : '';
-    var tableUnit = chartInfo.selectedUnit ? translations.t(chartInfo.selectedUnit) : chartInfo.footerFields[translations.indicator.unit_of_measurement];
+    var tableUnit = (chartInfo.selectedUnit && !chartInfo.footerFields[translations.indicator.unit_of_measurement]) ? translations.t(chartInfo.selectedUnit) : '';
     //this.createTable(chartInfo.selectionsTable, chartInfo.indicatorId, '#selectionsTable', true);
     this.createTable(chartInfo.selectionsTable, tableUnit, chartInfo.indicatorId, '#selectionsTable', true);
     //---#19 addUnitToTableHeaderIfNeeded---stop----------------------------------------------------
@@ -798,7 +796,10 @@ var indicatorView = function (model, options) {
         //'id': currentId
       });
 
+      //---Add Unit to chart heading
+      currentTable.append('<caption>' + that._model.chartTitle + ' ' + chartInfo.footerFields[translations.indicator.unit_of_measurement] '</caption>');
       currentTable.append('<caption>' + that._model.chartTitle + '</caption>');
+
 
       var table_head = '<thead><tr>';
 
