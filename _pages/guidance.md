@@ -19,6 +19,8 @@ Wenn Sie Kommentare oder Feedback zum Open SDG-Projekt haben oder an der Open SD
 
 ### Aktuelle Darstellung
 
+- Die verwendeten Bezeichnungen sind als geschlechtsneutral zu interpretieren und gelten demnach gleichermaßen für Frauen und Männer.
+
 Aufgrund von technischen Schwierigkeiten finden sich auf der aktuellen Version der Berichtsplattform einige mangelhafte Darstellungen, auf die an dieser Stelle hingewiesen wird:
 - Ganze Zahlen werden ohne Nachkommastelle dargestellt - auch wenn es andere Datenpunkte in derselben Zeitreihe gibt, in denen Zahlenwerte mit angezeigten Nachkommastelle vorhanden sind.
 - Sehr lange Zeitreihenbezeichnungen werden in den Achsenbeschriftungen der Grafiken nicht in mehrere Zeilen umgebrochen und z.T. abgeschnitten.
